@@ -1,0 +1,335 @@
+<style type="text/css">
+
+
+/* general setting for all the tags in all of my recipe world pages*/
+html,body,h1,h2,h3,ul,ol,li,p,a
+{
+	padding:0;
+	border:0;
+	margin:0;
+}
+body
+{
+	background-color:#5f5f5f;
+	padding:0px;
+	background-image:url(images/bodybackground.gif);
+	postion:top left;
+	background-repeat:repeat;
+	margin:0px auto;
+	font-family:Georgia,"times new roman";
+	font-size:100%;
+	font:inherit;
+}
+h1
+{
+	margin-top:10px;
+	margin-bottom:15px;
+	font-size:50px;
+	color:#ffffff;
+	text-align:center;
+}
+h2
+{
+	margin-top:10px;
+	margin-bottom:15px;
+	font-size:40px;
+        color:#034d4d;
+	text-align:center;
+	
+}
+h3
+{
+	margin-top:15px;
+	margin-bottom:15px;
+	border-bottom:1px solid #cccccc;
+	padding-bottom:3px;
+	font-size:30px;
+	color:#034d4d;
+}
+
+ul 
+{
+	
+	padding-left:50px;
+	font-size:18px;
+	
+}
+
+ol
+{
+	padding-left:50px;
+	font-size:18px;
+}
+p
+{
+	font-size:18px;
+}
+a
+{
+	text-decoration:none;
+	color:blue;
+}
+a:hover
+{
+	color:darkred;
+}
+/*this is where the general settings end*/
+
+/* setting for heading and its elements.this heading "recipe world" is common for all the pages */
+.header
+{
+	
+	background-color:#b56663;
+	border:3px solid black;
+	margin:0px;
+	padding:0px;
+	clear:left;
+
+	
+}
+.header a
+{
+	color:#ffffff;
+}
+.header img
+{
+        /*float:right;*/
+	margin:0px;
+	display:block; 
+}
+
+/*"nav" is the class for all the unordered list written for site navigation  in the header*/
+.nav
+{
+	list-style-type:none;
+	padding-left:0px;
+	margin:5px 0px 0px 0px;
+	text-align:center;
+}	
+.nav li
+{
+	
+	display:inline;
+	
+}
+.nav a
+{
+	text-decoration:none;
+	color:white;
+	font-size:25px;
+        padding:3px;
+}
+/* this is where the setting for heading ends*/
+/*this is where the call to nav class ends */
+/*Css Settings for home.html*/
+
+/*our page is divided into two section by a tag called div (short for division).
+ "the header which has a class name "header and the 
+  second section named main-content with class name "main-content"*/
+
+/*css for home.html.this page is diivded into three sections
+	i)the header
+	ii)main-content-home
+	iii)featurred-image*/
+
+/*setting for main-content-home */
+.main-content-home
+{
+	width:700px;
+	height:400px;
+	padding:1px;/*this padding is between the border and the div*/
+	border:1px solid #dddddd;
+	margin:30px auto 0 auto;
+	background-color:#ffffe0 ;
+	background:url(images/maincontentbackgroundimage.png);
+}
+.main-content-home h2
+{
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size:40px;
+	
+
+}
+/*in here fits the featured recipe of the month in home.html*/
+.featured-image
+{
+	height:229px;
+	width:580px;
+	background-postion:center center;
+	repeat:norepeat;
+	background-color:#ffffff;
+	background:url(images/featured-image2.png);
+	margin:auto;
+	
+	
+}
+.featured-image h3
+{
+	margin:0px;
+	padding:20px 25px 20px 75px;
+	color:#000000;
+	background-color:#CD7F32;	
+	text-align:bottom left;
+}
+/*the content for the home page*/
+.featured-recipe-content
+{
+	text-align:justify;
+	color:#000000;
+	word-wrap:normal;
+	padding-top:10px;
+	padding-left:43px;
+	font-size:20px;
+}
+/*This class name is used in recipe.html.its main sections are 
+	i)the header
+	ii)main-content class
+	iii)main-content-heading
+        iv)ul of recipes class*/
+.main-content-recipes
+{
+	width:700px;
+	height:445px;
+	padding:0px;
+	border:1px solid #dddddd;
+	margin:30px auto 0 auto;
+	background-color:#ffffe0 ;
+	background:url(images/maincontentbackgroundimage.png);
+}
+.main-content-recipes h2
+{
+	margin-top:0px;
+	margin-bottom:5px;
+	padding:5px;
+	font-size:40px;
+        color:#034d4d;
+	text-align:center;
+}
+/* "recipes" is the class for the unordered list of recipes in the recipes page */
+.recipes
+{
+	list-style-type:none;
+	padding:0px;
+	margin:0px auto;
+	
+}
+.recipes li
+{
+	margin-bottom:3px;
+	border:1px solid #b56663;
+	padding-left:40px;
+	background-color:#faebd7;
+	background:url(images/recipeslibackgroundimg.jpg);
+	width:650px;
+	height:95px;
+	
+	
+}
+
+.recipes h3
+{
+	border-bottom:0px;
+	
+}
+.recipes a
+{
+	color:#034d4d;
+}
+/* this is where the call ends*/
+
+/*this class is for magiccake.html.it has  section viz.
+	i)the header
+	ii)main-content1
+        iii)photos*/
+
+.main-content1
+{
+	width:600px;
+	height:800px;
+	padding:20px;
+	border:1px solid #dddddd;
+	margin:30px auto 0 auto;
+	background-color:#ffffe0 ;
+	background:url(images/maincontentbackgroundimage.png);
+}
+/*setting for photos in magiccake*/
+.photos
+{
+	list-style-type:none;
+	padding:0;
+}
+.photos li
+{
+	display: inline;
+	padding:11px;
+
+}
+/*end of  call to photos and magiccake*/
+/*setting for suggest a recipe*/
+
+input
+{
+	display:block;
+	margin-bottom:30px;
+	
+}
+input[type=text]
+{
+	border:2px solid #7facaa;
+	font-size:17px;
+	padding:3px;
+	margin-bottom:15px;
+	margin-left:25px;
+	width:500px;
+	
+	
+}
+input[type=submit]
+{
+	width:90px;
+	font-size:17px;
+	margin-left:25px;
+	margin-bottom:15px;
+}
+label
+{
+	display:block;
+	font-size:21px;
+	margin-left:25px;
+	margin-bottom:5px;
+}
+textarea
+{
+	width:500px;
+	height:200px;
+	margin-bottom:15px;
+	margin-left:25px;
+	border:2px solid #7facaa;
+	font-size:17px;
+}
+.content-area2
+{
+	width:600px;
+	height:580px;
+	padding:0px;
+	border:1px solid #dddddd;
+	margin:30px auto 0 auto;
+	background-color:#ffffe0 ;
+	background:url(images/maincontentbackgroundimage.png);
+}
+
+.content-area2 h2
+{
+	font-size:38px;
+	font-family:georgia,"times new roman";
+}
+
+
+	
+	
+	
+
+
+
+
